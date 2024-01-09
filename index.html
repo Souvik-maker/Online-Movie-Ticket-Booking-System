@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book My Show</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="rightConatiner">
+            <div class="moviebox">
+                <div class="display">display</div>
+                <div class="seating">
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                    <div class="seat" onclick="bookSeat(this)">Select</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="leftContainer">
+            <div class="bill">
+                <div class="header">Payment</div>
+                <div class="amount">
+                    <div class="right">
+                        <div>Amount per Seat</div>
+                        <div>Total Seat</div>
+                        <div>GST(18%)</div>
+                        <div>Total Amount</div>
+                    </div>
+                    <div class="left">
+                        <div>100</div>
+                        <div id="totalSeat">0</div>
+                        <div id="GST">0</div>
+                        <div id="totalAmount">0</div>
+                    </div>
+                </div>
+                <div class="pay"> <button id="reset">PAY</button> </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+body{
+    font-family: 'golsman',cursive;
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 80vh;
+    margin-top: 100px;
+}
+.moviebox{
+    
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+.seating{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+    
+   
+}
+.seat{
+    text-align: center;
+    border: 1px solid black;
+    background-color: lightcyan;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.display{
+    background-color: blueviolet;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.bill{
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
+    margin-left: 30px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid black;
+    background-color: skyblue;
+    box-shadow: 0px 0px 10px grey;
+}
+.header{
+    
+    height: 5vh;
+    line-height: 5vh;
+    text-align: center;
+    color:black;
+    border-bottom: 1px solid black; 
+    background-color: blue;
+}
+.pay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pay >button{
+    width: 90%;
+    background-color: lightgreen;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px grey;
+}
+.pay>button:hover{
+    box-shadow: 0px 0px 0px ;
+    transition: 0.2s ease-in-out;
+}
+.amount{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+
+}
+.right ,.left{
+    display: grid;
+}
